@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Noto+Serif:wght@200;300&family=Outfit:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Noto+Serif:wght@200;300&family=Outfit:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #f3eae3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    height: 60%;
+    width: 40%;
+    /* background-color: crimson; */
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+}
+
+#main #left{
+    height: 100%;
+    width: 50%;
+    /* background-color: white; */
+    background-image: url(./images/image-product-desktop.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px 0px 0px 20px ;
+}
+
+
+#main #right{
+    height: 100%;
+    width: 50%;
+    
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    padding: 20px;
+    /* line-height: 21px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+
+    
+}
+
+#perfume{
+    margin-top: 10px;
+    font-family: Montserrat;
+    opacity: 0.5;
+    width: fit-content; 
+    letter-spacing: 3px;
+    
+}
+h1{
+    margin-top: 20px;
+    color: #212427;
+    width: fit-content;
+    font-family: Fraunces;
+}
+
+#dis_product{
+    margin-top: 20px;
+    opacity: 0.6;
+    word-spacing: 5.5px;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+}
+
+#pricetag{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: left;
+   
+}
+
+
+#new{
+    font-family: Fraunces;
+    font-size: 28px;
+    color: hsl(158, 36%, 37%);
+}
+#old{
+    font-family: Montserrat;
+    opacity: 0.5;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+#button{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(26 64 49);
+    width: inherit;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#icon{
+    margin-right: 10px;
+}
+
+#button #add{
+
+    color:  hsl(0, 0%, 100%);
+}

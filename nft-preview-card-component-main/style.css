@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@200;700&family=Noto+Serif:wght@200;300&family=Outfit:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;1,700&family=Raleway:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+    /* background: #000;*/
+} 
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    position: relative;
+}
+
+#card{
+    position: absolute;
+    width: 19vw;
+    height: 67vh;
+    background-color: hsl(216, 50%, 16%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 12px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+    /* margin-top: ; */
+    
+}
+
+#ctop{
+    margin-top: 20px;
+    width: 17vw;
+    height:50% ;
+    border-radius: 10px;
+    
+}
+
+#ctop img{
+    width: 17vw;
+    height: 100%;  
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#cbottom{
+    width: 17vw;
+
+}
+#cbottom>h3{
+    margin-top: 24px;
+    font-family: "outline",sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#cbottom p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: "outline",sans-serif;
+    color: #8BACD9;
+    /* opacity: .5; */
+}
+
+#value{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#value #eth{
+    position: relative;
+    font-family: "outline",sans-serif;
+    color: #00FFF8;
+    margin-left: 23px;
+    font-weight: 600;
+}
+#eth::before{
+    content: url(./images/icon-ethereum.svg);
+    margin-right: 4px;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    right: 97%;
+    
+}
+
+#value #day{
+    font-family: "outline",sans-serif;
+    color: #8BACD9;
+    position: relative;
+    /* color: #00FFF8; */
+}
+
+#day::before{
+    content: url(./images/icon-clock.svg);
+    margin-right:4px  ;
+    position: absolute;
+    top: 60%;
+    right: 91%;
+    transform: translate(-50%,-50%);
+    /* text-align: center; */
+}
+
+
+hr {
+    border: none; /* Remove the default border */
+    opacity: 0.3;
+    border-top: 1px solid #ccc; /* Set the new border style and color */
+    margin: 20px 0; /* Add margin for spacing */
+  }
+
+
+  #profile{
+    display: flex;
+    align-items: center;
+
+  }
+
+  #profile #pimg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+   
+    background-image: url(./images/image-avatar.png);
+    background-size: contain;
+    border: 1.8px solid #ccc;
+  }
+  #profile #pname{
+    margin-left: 15px;
+    color: #8BACD9;
+    font-family: "outline" , sans-serif;
+  }
